@@ -1,3 +1,5 @@
+#import "@preview/fletcher:0.5.1" as fletcher: diagram, node, edge
+
 #let Ob(category) = $attach(br: category, upright(bold("Ob")))$
 #let Hom(category,s:none,t:none) = $attach(br: category, upright(bold("Hom")))#if s != none and t != none { $(#s,#t)$ }$
 #let arr(f,a,b) = $#f: #a -> #b$

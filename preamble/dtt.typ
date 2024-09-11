@@ -10,3 +10,15 @@
 #let inr = $upright("inr")$
 #let zero = $upright("zero")$
 #let succ = $upright("succ")$
+#let hy= $tack.r$
+#let type = $upright("type")$
+#let sq = $upright(bold("q"))$
+#let sp = $upright(bold("p"))$
+#let Unit = $upright("Unit")$
+#let El = $upright(bold("El"))$
+#let code = $upright(bold("code"))$
+#let UU = $upright(bold("U"))$
+#let rec = $upright("rec")$
+#let ind = $upright("ind")$
+#let lift = $upright(bold("lift"))$
+#let uni = $upright(bold("uni"))$
