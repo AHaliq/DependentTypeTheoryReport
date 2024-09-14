@@ -7,7 +7,7 @@
 
 == Substitution Calculus
 
-We study the dependent type theory; *Substitution Calculus*, with the following judgements
+We study the dependent type theory; *Substitution Calculus*, which has the following judgements
 
 #figure(table(
   columns: 6,
@@ -21,19 +21,21 @@ We study the dependent type theory; *Substitution Calculus*, with the following 
   $Delta hy gamma: Gamma$,
 ))
 
-Contexts are telescopes of dependent terms. They can be seen as a list of term judgements.
+*Terms* are like elements of a set but definitionally bound to its *type*; not member relation.
+
+*Contexts* are telescopes of dependent terms. They can be seen as a list of term judgements.
 
 $
-a_0: A_0, a_1: A_1(a_0), a_2: A_2(a_0,a_1), ..., a_n: A_n (a_0,...,a_{n-1}) hy
+a_0: A_0, a_1: A_1(a_0), a_2: A_2(a_0,a_1), ..., a_n: A_n (a_0,...,a_(n-1)) hy
 $
 
-Often the dependent terms are left implicit
+Often the dependent terms are left implicit with dot to notate concatenation i.e. $Gamma. A$
 
 $
 A_0.A_1.A_2...A_n hy
 $
 
-Note the concatenation of contexts is notated with a dot e.g. $Gamma. A$ is the context $Gamma$ with $A$ appended.
+*Substitutions* shifts the context of a judgement to another context.
 
 Rather than listing all the rules of the substitution calculus, we will study a model of dependent types which entails its rules. The model here is called _Categories with Families_ (CwF)
 
