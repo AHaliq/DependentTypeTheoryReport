@@ -15,7 +15,7 @@ $
 {c in Tm(Gamma. Id(A,a,b), C) | jrule }iso { star }
 $
 
-$Id$ like equality must satisfy $sym, trans, cong$, which is generalized with $subst$.
+$Id$ like equality; besides $refl$, must satisfy $sym, trans, cong$, which is generalized with $subst$.
 
 Thus the elimination rule for $Id$; called $jrule$, indeed exhibits $subst$. Additionally also $uniq$.
 
