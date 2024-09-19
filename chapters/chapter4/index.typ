@@ -183,9 +183,9 @@ figure(cetz.canvas({
   content("UU.north", $UU$, anchor: "south")
   stroke(black)
   stroke((paint: purple, dash: "dashed"))
-  line("a1.east", "b1.west", name: "line1", mark: (end: ">", start: ">"))
-  line("a2.east", "b2.west", name: "line2", mark: (end: ">", start: ">"))
-  line("a3.east", "b3.west", name: "line3", mark: (end: ">", start: ">"))
+  line("a1.east", "b1.west", name: "line1", mark: (end: ">"))
+  line("a2.east", "b2.west", name: "line2", mark: (end: ">"))
+  line("a3.east", "b3.west", name: "line3", mark: (end: ">"))
 }))
 ))
 
